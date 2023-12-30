@@ -1,12 +1,13 @@
 *{
-    margin: 1PX;
-    padding: 5px;
+    margin: 0;
+    padding: 0;
 }
 
 
 body{
     /*background-color: ;*/
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(135, 243, 251);
 
 }
 nav{
@@ -57,14 +58,26 @@ img{
 nav li:active{
     color: blueviolet;
 }
-.but{
-   background-color: orange;
+/* .but{
+   background-color: rgb(0, 64, 255);
    color: white;
-}
+   width: 100px; */
+
 .img2{
     width: 300vh;
     height: 200;
    
+}
+.About{
+    width: 1200px;
+  height: auto;
+  margin: auto;
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  position: relative;
+  
+ 
 }
 .skils{
     width: 100%;
@@ -80,12 +93,12 @@ nav li:active{
 }
 .skill-bar{
     height: 14px;
-    background: white;
+    background: rgba(255, 255, 255, 0.846);
     border-radius: 3px;
 }
 .skill-per{
     height: 14px;
-    background: orange;
+    background: rgb(0, 115, 255);
     border-radius: 3px;
     position: relative;
 }
@@ -107,19 +120,19 @@ nav li:active{
 
  }
  .fotterbottam{
-    background-color: rgb(148, 148, 144);
+    background-color: rgb(88, 88, 85);
     padding: 20px;
     text-align: center;
  }
  .fotterbottam p{
-    color: rgb(255, 251, 251);
+    color: rgba(255, 255, 255, 0.99);
  }
  .Designer{
     opacity: 0.7;
     letter-spacing: 1px;
     font-weight: 400;
     margin: 0 5px;
-    color: orange;
+    color:blue;
  }
  
  

@@ -1,12 +1,13 @@
 *{
-    margin: 1PX;
-    padding: 5px;
+    margin: 0;
+    padding: 0;
 }
 
 
 body{
     /*background-color: ;*/
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(135, 243, 251);
 
 }
 nav{
@@ -58,8 +59,9 @@ nav li:active{
     color: blueviolet;
 }
 .but{
-   background-color: orange;
+   background-color:blue;
    color: white;
+   width: 100px;
 }
 .heading{
     justify-content: center;
@@ -130,14 +132,6 @@ footer{
      letter-spacing: 1px;
      font-weight: 400;
      margin: 0 5px;
-     color: orange;
+     color: rgb(0, 94, 255);
   }
-  .login{
-    background-color: antiquewhite;
-    width: 200PX;
-   
-  }
-  .img{
-    height: 40px;
-    width: 40px;
-  }
+  
