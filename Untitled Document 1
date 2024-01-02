@@ -1,0 +1,4 @@
+git status
+git cammitted -m "main"
+git add .
+git push -u orgin main
