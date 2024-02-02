@@ -1,155 +1,121 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
 body{
-    /*background-color: ;*/
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(135, 243, 251);
+  background-color: #081b29;
+  color: #ededed;
+}
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 98%;
+  padding: 20px 1px;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.logo{
+  font-size: 25px;
+  color: #ededed;
+  text-decoration: none;
+  font-weight: 600;
+}
+.navbar a{
+  font-size: 18px;
+  color: #ededed;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 35px;
+  transition: 3s;
+}
+navbar a:hover,
+.navbar a.active {
+  color: #00abf0;
+}
+.home{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+}
+.home-content{
+  max-width: 600px;
 
 }
-nav{
-    display: flex;
-    justify-content: space-between;
-    
-    
+.home-content h1{
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.2;
 }
-nav ul{
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
-   
+.home-content h3{
+  font-size: 32px;
+  font-weight: 700;
+  color: #00abf0;
+}
+.home-content p{
+  font-size: 16px;
+  margin: 20px 0 40px;
 
 }
-nav li{
-    padding: 10px;
-    margin-top: 4px;
-    font-weight: bold;
+.btn-box{
+  display: flex;
+  justify-content: space-between;
+  width: 345px;
+  height: 50px;
+  
 }
-nav li a{
-    text-decoration: none;
-    color: black;
-}
- nav h2{
-    padding: 8px;
-    margin-left: 20px;
-   
-
-}
-nav li a:hover{
-    background-color: bisque;
-    padding:12px;
-    font-size: large;
-    transition: 1.5s;
-    transform: scale(1);
-
-}
-.content{ 
-  width: 1200px;
-  height: auto;
-  margin: auto;
+.btn-box a{
   position: relative;
-  font-family: Georgia;
-  
-}
-.par{
-  padding-left: 20px;
-  padding-bottom: 25px;
-  font-family: Arial;
-  letter-spacing: 1.20px;
-  line-height: 30px;
-}
-img{
-    width: 40px;
-    height: 40px;
+  display: inline-flex;
+  width: 150px;
+  height: 100%;
+  background: #00abf0;
+  border: 2px solid#00abf0;
+  border-radius: 8px;
+  font-size: 19px;
+  color: #081b29;
+  text-decoration: none;
+  font-weight:600 ;
+  letter-spacing: 1px;
+  justify-content: center;
+  align-items: center;
 
 }
-.img1{
-    justify-content: space-between;
-    display: flex;
-   
-}
-nav li:active{
-    color: blueviolet;
-}
-.but{
-   background-color: rgb(48, 48, 232);
-   color: white;
-   width: 100px;
-}
-.h2{
-    color: rgb(33, 97, 207);
-}
-.avatar {
-    vertical-align: middle;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-  }
-  
-  .img2{
-    height: 100px;
-    width: 100px;
-   
-  }
-.Icons{
-    display: flex;
-    justify-content: end;
-    display: flex;
-  
-}
-  footer{
-   background-color: rgb(160, 171, 167);
 
-  }
-  .footer container{
-    width: 100%;
-    padding: 70px 30px 20px ;
-  }
-  .socialIcons{
-    display: flex;
-    justify-content: center;
+.home-sci{
+  position: absolute;
+  bottom: 40px;
+  width: 170px;
+  display: flex;
+  justify-content: space-between;
 
-  }
-  .socialIcons a{
-    text-decoration: none;
-    padding: 10px;
-    
-    margin: 10px;
-    border-radius:50% ;
+}
+.home-sci a{
+  display: inline-flex;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid #00abf0;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #00abf0;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
 
+}
+@media only screen and (min-width: 600px) {
+  main {
+      justify-content: space-between;
   }
-  .socialIcons a i{
-    font-size: 2;
-    color:black ;
-    opacity: 0.9;
+}@media only screen and (min-width: 900px) {
+  body {
+      font-size: 18px;
   }
-  .footerNav{
-    margin: 30PX ;
- }
- 
- .footerNav ul{
-    display: flex;
-    justify-content: center;
- }
- .footerNav ul li a{
-    color: black;
-    margin: 20px;
-    text-decoration: none;
-    font-size: 1.3em;
-    opacity: 0.7;
-    transition: 0.5s;
-
- }
- .fotterbottam{
-    background-color: rgb(81, 78, 74);
-    padding: 20px;
-    text-align: center;
- }
- .fotterbottam p{
-    color: white;
- }
- .Designer{
-    opacity: 0.7;
-    letter-spacing: 1px;
-    font-weight: 400;
-    margin: 0 5px;
-    color: blue;
- }
- 
+}

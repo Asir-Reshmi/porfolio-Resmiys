@@ -1,137 +1,90 @@
 *{
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
+    font-family: 'Poppins', sans-serif;
 }
-
-
 body{
-    /*background-color: ;*/
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(135, 243, 251);
-
+    background-color: #081b29;
+    color: #ededed;
 }
-nav{
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 98%;
+    padding: 20px 1px;
+    background-color: transparent;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     
 }
-nav ul{
-    display: flex;
-    list-style: none;
-
-}
-nav li{
-    padding: 10px;
-    margin-top: 4px;
-    font-weight: bold;
-}
-nav li a{
+.logo{
+    font-size: 25px;
+    color: #ededed;
     text-decoration: none;
-    color: black;
+    font-weight: 600;
 }
- nav h2{
-    padding: 8px;
-    margin-left: 20px;
-   
-
+.navbar a{
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 3s;
 }
-nav li a:hover{
-    background-color: bisque;
-    padding:12px;
-    font-size: large;
-    transition: 1.5s;
-    transform: scale(1);
-
-    
-
-}
-img{
-    width: 40px;
-    height: 40px;
-
-}
-.img1{
-    justify-content: space-between;
-    display: flex;
-   
-}
-nav li:active{
-    color: blueviolet;
-}
-.but{
-   background-color:blue;
-   color: white;
-   width: 100px;
+navbar a:hover,
+.navbar a.active {
+    color: #00abf0;
 }
 .heading{
-    justify-content: center;
+    text-align: center;
+    padding: 110px ;
 }
 .h4{
-    justify-content: center;
+  margin-bottom: 30px;
+   text-align: center;
+  
 }
 .email{
-    justify-content: center;
+   text-align: center;
+   justify-content: center;
 }
-.button{
-    justify-content: center;
-  
+.contact{
+    text-align: center;
 }
-footer{
-    background-color: rgb(160, 171, 167);
- 
-   }
-   .footer container{
-     width: 100%;
-     padding: 70px 30px 20px ;
-   }
-   .socialIcons{
-     display: flex;
-     justify-content: center;
- 
-   }
-   .socialIcons a{
-     text-decoration: none;
-     padding: 10px;
-     
-     margin: 10px;
-     border-radius:50% ;
- 
-   }
-   .socialIcons a i{
-     font-size: 2;
-     color:black ;
-     opacity: 0.9;
-   }
-   .footerNav{
-     margin: 30PX ;
+.btn-box{
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+padding: 850px ;
+padding-top: 80PX;
+    
   }
+  .btn-box a{
+    position: relative;
+    display: inline-flex;
+    width: 150px;
+    height: 100%;
+    background: #00abf0;
+    border: 2px solid#00abf0;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #081b29;
+    text-decoration: none;
+    font-weight:600 ;
+    letter-spacing: 1px;
+    justify-content: center;
+    align-items: center;
   
-  .footerNav ul{
-     display: flex;
-     justify-content: center;
   }
-  .footerNav ul li a{
-     color: black;
-     margin: 20px;
-     text-decoration: none;
-     font-size: 1.3em;
-     opacity: 0.7;
-     transition: 0.5s;
- 
-  }
-  .fotterbottam{
-     background-color: rgb(81, 78, 74);
-     padding: 20px;
-     text-align: center;
-  }
-  .fotterbottam p{
-     color: white;
-  }
-  .Designer{
-     opacity: 0.7;
-     letter-spacing: 1px;
-     font-weight: 400;
-     margin: 0 5px;
-     color: rgb(0, 94, 255);
-  }
-  
+@media only screen and (min-width: 600px) {
+    main {
+        justify-content: space-between;
+    }
+}@media only screen and (min-width: 900px) {
+    body {
+        font-size: 18px;
+    }
+}
